@@ -16,10 +16,10 @@
         "symfony/http-foundation": "~2.3",
         "symfony/validator": "~2.3",
         "symfony/config": "~2.3",
-        "symfony/class-loader":"~2.3",
+        "symfony/class-loader":"~2.3"
     },
     "require-dev": {
-        "symfony/yaml": "~2.3",
+        "symfony/yaml": "~2.3"
     },
     "autoload": {
         "psr-4": { "Ap\\CpanelBundle\\": "" }
