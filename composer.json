@@ -9,7 +9,7 @@
         {
             "name": "Yamir Ramirez",
             "email": "ysramirez@gmail.com",
-            "homepage": "http://aprendephp.com/cpanel-bundle"
+            "homepage": "http://aprendephp.com/cpanel-bundle",
         },
     ],
     "require": {
