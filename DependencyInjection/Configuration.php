@@ -18,7 +18,24 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
+        
         $rootNode = $treeBuilder->root('ap_cpanel');
+
+        $rootNode
+                ->children()
+                        ->scalarnode('domain')
+                        ->end()
+                ->end()
+                ->children()
+                        ->scalarnode('whmusername')
+                        ->end()
+                ->end()
+                ->children()
+                        ->scalarnode('whmhash')
+                        ->end()
+                ->end()
+
+        ;
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

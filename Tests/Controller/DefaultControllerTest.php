@@ -1,10 +1,10 @@
 <?php
 
-namespace Ap\CpanelBundle\Tests\Api;
+namespace Ap\CpanelBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class CpanelapiTest 
+class DefaultControllerTest extends WebTestCase
 {
     public function testIndex()
     {
