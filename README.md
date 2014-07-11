@@ -3,18 +3,6 @@ ApCpanelBundle
 
 Easy to use Cpanel API bundle
 
-## Installation
-
-Installation is a quick (I promise!) 7 step process:
-
-1. Download FOSUserBundle using composer
-2. Enable the Bundle
-3. Create your User class
-4. Configure your application's security.yml
-5. Configure the FOSUserBundle
-6. Import FOSUserBundle routing
-7. Update your database schema
-
 ### Step 1: Download ApCpanelBundle using composer
 
 Add ApCpanelBundle by running the command:
