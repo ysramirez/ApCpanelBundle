@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="./Tests/bootstrap.php" colors="true">
+<phpunit bootstrap="Tests/DependencyInjection/YamlApCpanelExtensionTest.php" colors="true">
 
     <testsuites>
-        <testsuite name="FOSRest test suite">
+        <testsuite name="Cpanel Test">
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
