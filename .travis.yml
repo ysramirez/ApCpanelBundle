@@ -4,4 +4,7 @@ php:
   - 5.5
   - 5.4
 
-script: phpunit -c app Tests/DependencyInjection/YamlApCpanelExtensionTest
+before_script:
+  - wget http://getcomposer.org/composer.phar
+  - php composer.phar install
+  - phpunit
