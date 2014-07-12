@@ -22,16 +22,20 @@ class Configuration implements ConfigurationInterface
         $rootNode = $treeBuilder->root('ap_cpanel');
 
         $rootNode
+
                 ->children()
                         ->scalarnode('domain')
+                            ->isRequired()
                         ->end()
                 ->end()
                 ->children()
                         ->scalarnode('whmusername')
+                            ->isRequired()
                         ->end()
                 ->end()
                 ->children()
                         ->scalarnode('whmhash')
+                            ->isRequired()
                         ->end()
                 ->end()
 
