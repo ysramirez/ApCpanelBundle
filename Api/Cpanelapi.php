@@ -1,6 +1,7 @@
 <?php
 
 namespace Ap\CpanelBundle\Api;
+use Symfony\Component\Config\Definition\Exception\Exception;
 
 class Cpanelapi{
 
