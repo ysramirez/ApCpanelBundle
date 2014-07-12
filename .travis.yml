@@ -11,4 +11,4 @@ env:
 before_script:
   - composer require symfony/http-foundation:${SYMFONY_VERSION}
 
-script: phpunit --coverage-text
+script: phpunit -c app src/Ap/CpanelBundle/Tests/DependencyInjection/YamlApCpanelExtensionTest
