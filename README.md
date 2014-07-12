@@ -47,8 +47,12 @@ ap_cpanel:
 
 public function someAction()
 {
+//..    
 	$cpanel = $this->container->get('ap_cpanel.api');
-
-    $result   = json_decode($cpanel->listaccts()->exec(), TRUE);
+	
+    $accountsJson = $cpanel->listaccts()->exec();
+    
+    $result   = json_decode($accountsJson, TRUE);
+//..    
 }
 ```
