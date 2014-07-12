@@ -1,6 +1,7 @@
 <?php
 
 namespace Ap\CpanelBundle\Api;
+use Symfony\Component\Config\Definition\Exception\Exception;
 
 class Cpanelapi{
 
@@ -27,7 +28,7 @@ class Cpanelapi{
 
         $this->localquery  = "";
 
-        if((strcmp($apitype, "json-api") and strcmp($apitype, "xml-api")) == 0){
+        if((strcmp($apitype, "json-api") && strcmp($apitype, "xml-api")) == 0){
             $this->apitype = $apitype;  
         }else{
             throw new Exception("apitype must be json-api or xml-api", 1);

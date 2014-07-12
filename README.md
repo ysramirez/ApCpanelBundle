@@ -3,6 +3,7 @@ ApCpanelBundle
 
 Easy to use Cpanel API bundle
 
+<<<<<<< HEAD
 ## Installation
 
 Installation is a quick (I promise!) 7 step process:
@@ -15,6 +16,8 @@ Installation is a quick (I promise!) 7 step process:
 6. Import FOSUserBundle routing
 7. Update your database schema
 
+=======
+>>>>>>> origin/master
 ### Step 1: Download ApCpanelBundle using composer
 
 Add ApCpanelBundle by running the command:
@@ -60,6 +63,7 @@ ap_cpanel:
 public function someAction()
 {
 	$cpanel = $this->container->get('ap_cpanel.api');
+<<<<<<< HEAD
     $result   = json_decode($cpanel->listaccts()->exec(), TRUE);
 }
 ```
@@ -486,3 +490,11 @@ The following documents are available:
 - [Using a custom storage layer](custom_storage_layer.md)
 - [Configuration Reference](configuration_reference.md)
 - [Adding invitations to registration](adding_invitation_registration.md)
+=======
+    $cpanel->listaccts();  //This function lists all accounts on the server
+    $jsonresult = $cpanel->exec(); //use exec to connect to the server
+    $result = json_decode($jsonresult, TRUE);
+	...
+}
+```
+>>>>>>> origin/master
