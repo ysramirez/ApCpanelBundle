@@ -1,0 +1,23 @@
+{
+    "name": "ap/cpanel-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony ApCpanelBundle",
+    "keywords": ["Cpanel", "api"],
+    "homepage": "http://aprendephp.com/cpanel-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yamir Ramirez",
+            "email": "ysramirez@gmail.com",
+            "homepage": "http://aprendephp.com/cpanel-bundle"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ap\\CpanelBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
