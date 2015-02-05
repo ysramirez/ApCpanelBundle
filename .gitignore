@@ -36,3 +36,5 @@ Icon
 .Trashes
 
 Resources/config/services.yml
+
+.idea
